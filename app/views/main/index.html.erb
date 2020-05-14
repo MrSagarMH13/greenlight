@@ -1,31 +1,236 @@
 <%
-# BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
-# Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
-# This program is free software; you can redistribute it and/or modify it under the
-# terms of the GNU Lesser General Public License as published by the Free Software
-# Foundation; either version 3.0 of the License, or (at your option) any later
-# version.
-#
-# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
-# You should have received a copy of the GNU Lesser General Public License along
-# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+  # BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
+  # Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
+  # This program is free software; you can redistribute it and/or modify it under the
+  # terms of the GNU Lesser General Public License as published by the Free Software
+  # Foundation; either version 3.0 of the License, or (at your option) any later
+  # version.
+  #
+  # BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
+  # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+  # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+  # You should have received a copy of the GNU Lesser General Public License along
+  # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
 
-<div class="background">
-  <div class="container pt-9 pb-8">
-    <div class="row">
-      <div class="col-md-12 col-sm-12 text-center">
-        <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
-        <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
-        <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
-          <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4>
-        <% end %>
+<div class="container-fluid mtop-5 mb-5">
+  <div class="text-content py12  text-center text-white">
+    <h2 class="mb-3">Engage Students Wherever They Are</h2>
+    <p class="mb-4">Taptutors is built with teachers, students, and schools in mind.</p>
+    <br>
+    <a href="https://online.taptutors.com" class="btnavi">
+
+                <span class="elementor-button-text">TRY IT NOW <i class="fa fa-arrow-right"
+                                                                  aria-hidden="true"></i></span>
+
+    </a>
+  </div>
+</div>
+
+
+
+<div class="container py8 xstext-center">
+  <div class="row ">
+    <div class="col-md-6">
+      <img src="./assets/images/mobile.png" class="img-fluid w450">
+    </div>
+    <div class="col-md-6">
+      <div class=" mt-5">
+        <h2 class="p1">Tools tailor-made for teachers
+        </h2>
+        <p class="p1">Taptutors enables you to share your audio, slides, chat, video, and desktop with
+          students. Built-in polling makes it easy to engage students and recording your lectures means
+          that you can make them available for later review.</p>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+
+<div class="container py8 xstext-center">
+  <div class="row d-flex">
+    <div class="col-md-6 order-2">
+      <div class=" mt-5">
+        <h2 class="p1">Live whiteboard for presenters<br>
+          and groups </h2>
+        <p class="p1">When using the whiteboard tool in Taptutors, annotations are automatically displayed
+          back to the students in real-time. Presenters also have the ability to zoom, highlight, draw and
+          write on presentations making your points clearer to remote students.</p>
       </div>
 
+    </div>
+    <div class="col-md-6 order-1">
+      <img src="./assets/images/whiteboard.png" class="img-fluid w450">
+    </div>
+
+
+  </div>
+
+</div>
+
+
+
+
+
+<div class="container py8 xstext-center">
+  <div class="row ">
+    <div class="col-md-6 order-1">
+
+      <img src="./assets/images/share_webcam.png" class="img-fluid w450">
+
+    </div>
+    <div class="col-md-6 order-2">
+      <div class=" mt-5">
+        <h2 class="p1">Everyone can share a webcam
+        </h2>
+        <p class="p1">There is no limit on the number of webcams you can share in a session (only limited by
+          bandwidth). Here’s an example of a sessions with 15 shared webcams.</p>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+
+
+<div class="container py8 text-center">
+  <div class="row ">
+
+    <div class="col-md-12">
+      <div class="py-5">
+        <h2 class="p1">Taptutors Features
+        </h2>
+        <p class="p1">Everything you need to teach and participate in an online class.
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <div class="row imagehead">
+
+    <div class="col-md-3 img col-6">
+      <img src="./assets/images/bbb-icon-chat.png" class="img-fluid">
+      <p class="p1 pthead">Chat</p>
+      <p class="p1"> Send public and private messages.</p>
+    </div>
+
+    <div class="col-md-3 img col-6">
+      <img src="./assets/images/bbb-icon-webcams.png" class="img-fluid">
+      <p class="p1 pthead">Webcams</p>
+      <p class="p1"> Hold visual meetings.
+      </p>
+    </div>
+
+    <div class="col-md-3 img col-6">
+      <img src="./assets/images/bbb-icon-audio.png" class="img-fluid">
+      <p class="p1 pthead">Audio</p>
+      <p class="p1"> Communicate using high quality audio.</p>
+    </div>
+
+    <div class="col-md-3 img col-6">
+      <img src="./assets/images/bbb-icon-emoji.png" class="img-fluid">
+      <p class="p1 pthead">Emojis</p>
+      <p class="p1"> Express yourself.
+
+      </p>
+    </div>
+
+    <div class="col-md-3 img col-6">
+      <img src="./assets/images/bbb-icon-rooms.png" class="img-fluid">
+      <p class="p1 pthead">Breakout Rooms</p>
+      <p class="p1"> Group users into breakout rooms for team collaboration.</p>
+    </div>
+
+    <div class="col-md-3 img col-6">
+      <img src="./assets/images/bbb-icon-polling.png" class="img-fluid">
+      <p class="p1 pthead">Polling</p>
+      <p class="p1">Poll your users anytime
+
+      </p>
+    </div>
+
+    <div class="col-md-3 img col-6">
+      <img src="./assets/images/bbb-icon-screensharing.png" class="img-fluid">
+      <p class="p1 pthead">Screen Sharing
+      </p>
+      <p class="p1"> Share your screen.
+
+      </p>
+    </div>
+
+    <div class="col-md-3 img col-6">
+      <img src="./assets/images/bbb-icon-whiteboard.png" class="img-fluid">
+      <p class="p1 pthead">Muti-user whiteboard </p>
+      <p class="p1"> Draw together.
+
+      </p>
+    </div>
+  </div>
+
+
+</div>
+
+
+<div class="container py8 text-center">
+  <div class="row ">
+
+    <div class="col-md-12">
+      <div class="py-5">
+        <h2 class="p1">Use Taptutors at your school
+
+        </h2>
+        <p class="p1">Online learning simplified!
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <div class="row imagehead">
+
+    <div class="col-md-4">
+      <img src="./assets/images/read_icon.png" class="img-fluid">
+      <p class="p1 pthead">Accessible</p>
+      <p class="p1"> Taptutors strives to meet WCAG 2.0 AA and Section 508 accessibility standards.</p>
+    </div>
+
+    <div class="col-md-4">
+      <img src="./assets/images/integration_icon.png" class="img-fluid">
+      <p class="p1 pthead">Existing Integrations</p>
+      <p class="p1">The community has built a variety of integrations to seamless access Taptutors in all the
+        major Learning Management Systems.
+      </p>
+    </div>
+
+    <div class="col-md-4">
+      <img src="./assets/images/contact_icon.png" class="img-fluid">
+      <p class="p1 pthead">Commercial Support</p>
+      <p class="p1">There is an active group of companies that specializes in commercial hosting and support
+        for Taptutors.</p>
     </div>
   </div>
 </div>
 
+<div class="container-fluid py8 text-center bg-light">
+  <div class="row ">
+    <div class="col-md-8 ">
+
+      <h2 class="p1"> Interested in trying Taptutors</h2>
+      <p class="p1"> Check out the tutorial videos and then try out Taptutors on our demo server.</p>
+    </div>
+    <div class="col-md-4 ">
+
+      <a href="https://online.taptutors.com" class="btnavi btnthe">
+
+                    <span class="elementor-button-text">TRY IT NOW <i class="fa fa-arrow-right"
+                                                                      aria-hidden="true"></i></span>
+
+      </a>
+    </div>
+  </div>
+</div>
 <%= render "main/components/features" %>
