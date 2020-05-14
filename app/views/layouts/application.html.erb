@@ -29,7 +29,7 @@
       </script>
     <% end %>
 
-<!--    <title><%#= t("taptutors") %></title>-->
+    <title><%= t("taptutors") %></title>
     <meta property="og:title" content="<%= t("taptutors", locale: :en) %>" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="<%= t("landing.about", href: "Greenlight", locale: :en) %>" />
@@ -58,7 +58,6 @@
       window.I18nFallback = <%= fallback_translations.to_json.html_safe %>
     </script>
 
-    <title>taptutors</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
