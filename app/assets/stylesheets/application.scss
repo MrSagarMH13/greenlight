@@ -386,6 +386,15 @@ button.btn.btn-outline-success.my-2.my-sm-0 {
   border-color: rgba(0, 0, 0, 0);
 }
 
+.container-fluid.mtop-5.mb-5 {
+  background-image: url(https://raw.githubusercontent.com/MrSagarMH13/greenlight/custom_changes_backup/app/assets/images/Teachers-Banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+
 @media(max-width: 768px) {
   .xsnav {
     padding: 0.25rem 20px !important;
@@ -420,6 +429,15 @@ button.btn.btn-outline-success.my-2.my-sm-0 {
   .py12 {
     padding-top: 8rem !important;
   }
+  .container-fluid.mtop-5.mb-5 {
+    background-image: url(https://raw.githubusercontent.com/MrSagarMH13/greenlight/custom_changes_backup/app/assets/images/Teachers-Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 432px !important;
+    width: 100%;
+  }
+
   .py8 {
     padding-bottom: 2rem !important;
     padding-top: 2rem !important;
@@ -462,22 +480,5 @@ button.btn.btn-outline-success.my-2.my-sm-0 {
     left: 15px;
   }
 
-  container-fluid.mtop-5.mb-5 {
-    background-image: url(https://raw.githubusercontent.com/MrSagarMH13/greenlight/custom_changes_backup/app/assets/images/Teachers-Banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    width: 100%;
-  }
-
-  .container-fluid.mtop-5.mb-5 {
-    background-image: url(https://raw.githubusercontent.com/MrSagarMH13/greenlight/custom_changes_backup/app/assets/images/Teachers-Banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 432px!important;
-    width: 100%;
-  }
-
 }
+
