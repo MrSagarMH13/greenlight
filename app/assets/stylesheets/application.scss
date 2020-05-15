@@ -52,7 +52,7 @@
 }
 
 html, body {
-  font-family: "Source Sans Pro" !important;
+  font-family: "Poppins" !important;
   position: relative;
   width: 100%;
   height: 100%;
@@ -180,29 +180,301 @@ table {
   cursor: not-allowed;
 }
 
-.container-fluid.mtop-5.mb-5 {
-  background-image: url(https://raw.githubusercontent.com/MrSagarMH13/greenlight/custom_changes_backup/app/assets/images/Teachers-Banner.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 600px;
-  width: 100%;
+.ft12 {
+  font-size: 12px!important;
 }
-.py12 {
-  padding-top: 8rem!important;
+
+.ft14 {
+  font-size: 14px!important;
 }
+
+.ft16 {
+  font-size: 16px!important;
+}
+
+.ft18 {
+  font-size: 18px!important;
+}
+
+.ft20 {
+  font-size: 20px!important;
+}
+
+.ft22 {
+  font-size: 22px!important;
+}
+
+.text-black{
+  color: #3C4852;
+}
+
+
+/* .mtop-5 {
+  margin-top: 66px!important;
+} */
+
+.w450{
+  width: 365px;
+}
+
+.py8{
+  padding-bottom: 5rem!important;
+  padding-top: 5rem!important;
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+
+a.btnavi {
+  background: #704d9f!important;
+  color: white;
+  padding: 17px 32px;
+  border-radius: 50px;
+}
+
+
+
+.py12{
+  padding-top: 12rem!important;
+}
+
+h2.p1 {
+  font-size: 29px;
+  margin-bottom: 20px;
+}
+
+p.p1.pthead {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.row.imagehead div.col-md-3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+p.p1 {
+  color: #767676;
+  font-size: 14px;
+}
+
+
+.btnthe{
+  top: 39px!important;
+  position: relative;
+}
+
+a:link, a:visited:link {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+.social_accounts > li a {
+  background-color: #704d9f!important;
+  color: #fff;
+  border-radius: 90px;
+  padding: 8px;
+  margin-right: 5px;
+  width: 40px;
+  display: block;
+  text-align: center;
+}
+
+.social_accounts > li {
+  display: inline-block;
+  list-style: none;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+.social_accounts {
+  display: inline-block;
+}
+
+.social_accountss > li {
+  list-style: none;
+  display: inline-block;
+
+}
+
+i.fa.fa-whatsapp {
+  font-size: 45px;
+}
+
+
+
+i.fa.fa-envelope{
+  font-size: 45px;
+}
+
+
+.spanno{    position: relative;
+  top: -11px;
+  left: 15px;
+}
+
 h2.mb-3 {
   font-size: 41px;
 }
 p.mb-4 {
   font-size: 18px;
 }
-a.btnavi {
-  background: #704d9f!important;
-  color: white;
-  padding: 15px 27px;
+
+img.img-logo {
+  width: 108px;
+  position: relative;
+  top: 0px;
+  padding: 0px;
+  margin: 0;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+  padding: 9px 23px;
   border-radius: 50px;
 }
-.py12 {
-  padding-top: 8rem!important;
+
+@media (min-width: 768px){
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: .5rem;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.btn-outline-success {
+  color: #704d9f;
+  border-color: #704d9f;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #704d9f;
+  border-color: #704d9f;
+}
+
+.col-md-3.img img {
+  width: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color:#704d9f!important;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+  padding: 9px 23px;
+  border-radius: 50px;
+  font-weight: 600!important;
+}
+
+.col-md-3.img:hover {
+  background: ghostwhite;
+  box-shadow: 0px 0px 17px #d7d7d7;
+  border-radius: 5px;
+}
+
+.navbar-dark .navbar-toggler {
+  color: #704d9f!important;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.container-fluid.mtop-5.mb-5 {
+  background-image: url(../assets/Teachers-Banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+
+@media(max-width:768px){
+  .xsnav{
+    padding: 0.25rem 20px!important;
+  }
+  img.img-logo {
+    width: 68px!important;
+    position: relative;
+    top: 0px;
+    padding: 0px;
+    margin: 0;
+  }
+  div#navbarCollapse {
+    padding: 0px 8px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500!important;
+  }
+
+  h2.mb-3 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  p.mb-4 {
+    font-size: 14px;
+  }
+  a.btnavi {
+    background: #704d9f!important;
+    color: white;
+    padding: 15px 27px;
+    border-radius: 50px;
+  }
+  .py12 {
+    padding-top: 8rem!important;
+  }
+  .container-fluid.mtop-5.mb-5 {
+    background-image: url(../assets/Teachers-Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 432px!important;
+    width: 100%;
+  }
+
+  .py8 {
+    padding-bottom: 2rem!important;
+    padding-top: 2rem!important;
+  }
+
+  .w450 {
+    width: 150px;
+  }
+  .xstext-center{
+    text-align: center;
+  }
+  h2.p1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  a.btnavi {
+    background: #704d9f!important;
+    color: white;
+    padding: 11px 19px;
+    border-radius: 50px;
+  }
+  i.fa.fa-envelope {
+    font-size: 28px;
+  }
+  i.fa.fa-whatsapp {
+    font-size: 33px;
+  }
+  ul.social_accountss.mb-0 {
+    margin-top: 22px;
+  }
+  li.mb-xs12 {
+    margin-bottom: 13px;
+  }
+  .spanno {
+    position: relative;
+    top: -4px;
+    left: 15px;
+  }
+
 }
