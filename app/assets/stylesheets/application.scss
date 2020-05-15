@@ -89,13 +89,7 @@ a {
 }
 
 .background {
-  //background-color: $background-color;
-  background-image: url(https://raw.githubusercontent.com/MrSagarMH13/greenlight/custom_changes_backup/app/assets/images/Teachers-Banner.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 600px;
-  width: 100%;
+  background-color: $background-color;
 }
 
 .error-section {
@@ -466,6 +460,24 @@ button.btn.btn-outline-success.my-2.my-sm-0 {
     position: relative;
     top: -4px;
     left: 15px;
+  }
+
+  container-fluid.mtop-5.mb-5 {
+    background-image: url(https://raw.githubusercontent.com/MrSagarMH13/greenlight/custom_changes_backup/app/assets/images/Teachers-Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+  }
+
+  .container-fluid.mtop-5.mb-5 {
+    background-image: url(https://raw.githubusercontent.com/MrSagarMH13/greenlight/custom_changes_backup/app/assets/images/Teachers-Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 432px!important;
+    width: 100%;
   }
 
 }
